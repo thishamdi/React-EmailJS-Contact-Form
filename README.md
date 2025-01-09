@@ -142,6 +142,7 @@ Here’s the complete code for the contact form:
 ```javascript
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import './Contact.css';
 
 const Contact = () => {
     const form = useRef();
